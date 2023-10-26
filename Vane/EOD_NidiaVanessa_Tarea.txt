@@ -1,0 +1,24 @@
+Nidia Vanessa Chávez Rendón
+
+Errores:
+
+def cola(self,x):
+        self.items.append(x)
+
+Error: La identación era incorrecta.
+
+class Pila:
+    def __init__(self):
+        self.items = []
+
+Error: Faltaban guiones para hacer la función correctamente.
+
+¿Cuál es la linea que hace que se borre el registro de la lista?
+
+def colaF(self):
+        try:
+            return self.items.pop(0)
+        except:
+            raise ValueError("La cola está vacía")
+    def print_cola(self):
+        print(self.items)
