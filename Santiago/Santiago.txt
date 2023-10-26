@@ -1,0 +1,38 @@
+el primer error es def colaF(self):
+
+class Cola:
+    def __init__(self):
+        self.items = []
+
+    def cola(self,x):
+        self.items.append(x)
+    
+     def colaF(self):
+        try:
+            return self.items.pop(0)
+        except:
+            raise ValueError("La cola está vacía")
+
+
+está anidando las funciones, la función mencionada debe estar alineada con las otras en pocas palabras no tiene la sangría correcta.
+
+
+
+el segundo error es def _init_(self):
+        self.items = []
+
+el método constructor para iniciar la función no se escribe con guiones bajos simples sino con guiones bajos dobles es decir:
+    def __init__(self):
+        self.items = [] 
+
+
+
+
+¿Cómo cada una de las funciones?
+La función cola() en la clase Cola nos pide un parámetro para agregarlo a una lista pero empezando por la ultima posición y la función colaF() elimina cada uno de los elementos de una lista empezando desde la posición 0, en caso de que no haya elementos en la lista nos retorna el mensaje "La cola está vacía" por ultimo la función print_cola()nos imprime todos los elementos de la cola.
+
+La función push() en la clase pila nos pide un parámetro para agregarlo a una lista empezando desde la posición 0 y la función pop() nos permite eliminar los elementos de la lista igualmente empezando desde la posición 0 por ultimo la función print_cola() nos imprime todos los elementos de la lista
+
+¿Cuál es la linea que hace que se borre el registro de la lista?
+En la clase Cola: return self.items.pop(0)
+En la clase Pila: return self.items.pop(0)
