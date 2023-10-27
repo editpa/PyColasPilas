@@ -1,0 +1,31 @@
+Melany Marlen Chavez Ortiz
+Actividad en clase 2.3
+
+Errores del codigo:
+
+class Cola:
+    def __init__(self):
+        self.items = []
+
+    def cola(self,x):
+        self.items.append(x)
+    
+     def colaF(self):
+        try:
+            return self.items.pop(0)
+        except:
+            raise ValueError("La cola está vacía")
+    def print_cola(self):
+        print(self.items)
+
+>> En esta parte del codigo habias espacios de sobra donde no se dio el salto de linea correctamente (problemas con la identacion)
+
+>> En cieras partes del codigo faltaban simbolos para completar la ejecusion.
+---------------------------------------------------------------
+
+
+>> ¿Cual es la linea de codigo que hace que se borre el registro de la lista?
+
+-     def pop(self):
+        return self.items.pop(0)
+
