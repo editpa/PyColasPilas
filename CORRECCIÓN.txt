@@ -1,0 +1,4 @@
+-El primer error es que la niea 8 la sangria no esta alineada correctamente.
+-Segundo error: la linea 21 debe tener 2 guiones bajos antes y despues del init.
+¿cual es la linea que hace que se borre el registro de la lista?
+25

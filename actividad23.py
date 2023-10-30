@@ -8,7 +8,7 @@ class Cola:
     def cola(self,x):
         self.items.append(x)
     
-     def colaF(self):
+    def colaF(self):
         try:
             return self.items.pop(0)
         except:
@@ -18,7 +18,7 @@ class Cola:
 
 
 class Pila:
-    def _init_(self):
+    def __init__(self):
         self.items = []
     
      
