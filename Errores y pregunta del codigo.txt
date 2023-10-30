@@ -1,0 +1,6 @@
+El primer error en el codigo era la identacion en la palabra reservada def, esta no debe de identarse.
+
+El segundo error es un poco más complicado de ver, pero el error era de sintaxis en la linea 21 "def _init_", aquí lo que faltaba eran 2 guiones bajos, uno del lado izquiero del init y otro del lado derecho del init. 
+
+¿Cuál es la línea que hace que se borre el registro de la lista?
+ La línea que se encarga de esto está en el método pop, la línea número 29 “return self.items.pop(0), lo que hace es que al llamar al método pop instanciando la clase pila elimina y se devuelve el elemento que está en la posición 0
